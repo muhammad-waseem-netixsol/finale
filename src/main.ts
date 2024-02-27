@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
    // Define CORS options
    const corsOptions: CorsOptions = {
-    origin: ['https://u-evaluation-frontend.vercel.app'], // or specify your frontend URL(s) here
+    origin: ['https://u-evaluation-frontend.vercel.app'], 
     methods:  ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
   };
   // Enable CORS with options
